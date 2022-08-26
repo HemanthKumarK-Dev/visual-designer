@@ -86,7 +86,6 @@ header{
 .cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
 }
 .section-1{
     margin-left: 100px;
@@ -393,9 +392,9 @@ footer{
 
 .cards{
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
-    margin-top: 80px;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    margin-top: 180px;
 
 }
 .section-1{
@@ -405,7 +404,7 @@ footer{
 .card{
     
     height: 100%;
-    width: 80%;
+    width: 120%;
 }
 
 .card h3{
@@ -579,6 +578,13 @@ footer{
 }
 
 
+.style-me{
+   
+    height: 788px;
+    width: 80%;
+  
+
+}
 
 }
 
