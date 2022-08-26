@@ -380,5 +380,98 @@ footer{
 }
 
 
+.about-me{
+    margin-top: 40px;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #ff3343;
+    border-style: none;
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.section-1{
+    margin-left: 70px;
+}
+.card{
+    
+    height: 100%;
+    width: 120%px;
+}
+
+.card h3{
+    font-size: 20px;
+    margin-left: 50px;
+    /* margin-right: 50px; */
+}
+
+
+.card p{
+    margin-top: 10px;
+    font-size: 16px;
+    margin-left: 50px;
+    color: #ffffff;
+}
+
+
+.card img{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.section1-bottom{
+    display: flex;
+    flex-direction: column;
+}
+.section1-bottom h2{
+    font-size: 80px;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-weight: 800;
+    color: #ff3343;
+   padding-bottom: 0;
+}
+.left-b h5{
+    font-size: 24px;
+    margin-left:0px;
+    font-weight: 800;
+
+
+}
+
+.minicard-g{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin-top: 30px; 
+    margin-left:0px;
+  
+}
+.minicard{
+      background-color: #1e1e1e;
+      margin-left:10px;
+      height: 110px;
+      width: 180px;
+      margin-bottom: 20px;
+}
+
+
+.minicard h2{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 48px;
+    color: #ff3343;
+}
+.minicard p{
+    text-align: center;
+
+}
+
 }
 
