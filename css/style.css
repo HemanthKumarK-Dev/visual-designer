@@ -387,6 +387,7 @@ footer{
     color: #ffffff;
     background-color: #ff3343;
     border-style: none;
+    margin-bottom:10px;
 }
 
 
@@ -394,6 +395,8 @@ footer{
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
+    margin-top: 80px;
+
 }
 .section-1{
     margin-left: 10px;
@@ -448,7 +451,6 @@ footer{
 }
 
 .minicard-g{
-    display: grid;
     grid-template-columns: 1fr 1fr;
 
     margin-top: 30px; 
@@ -456,7 +458,6 @@ footer{
   
 }
 .minicard{
-      background-color: #1e1e1e;
       margin-left:10px;
       height: 110px;
       width: 180px;
@@ -470,10 +471,47 @@ footer{
     font-size: 48px;
     color: #ff3343;
 }
-.minicard p{
-    text-align: center;
+
+.sec2-head{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.sec2-head h2{
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'open sans';
+}
+.sec2-head p{
+    font-size: 16px;
+}
+
+.view-btn button{
+    
+    margin-left: 2px;
+    margin-top: 10px;
+    padding: 10px 40px;
+    font-size: 12px;
+}
+
+
+.projectcards{
+    display:grid;
+    grid-template-columns:1fr;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-right: 0px;
+}
+
+
+.imgcard{
+    margin: 40px 10px;
 
 }
+
+
 
 }
 
