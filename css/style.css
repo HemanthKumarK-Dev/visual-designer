@@ -341,3 +341,44 @@ footer{
     margin-top: 0px;
 
 }
+
+@media screen and (max-width:700px){
+
+    .logo{
+        margin-left: 30px;
+    }
+
+    .nav-menu{
+        display: none;
+    }
+
+    header{
+        display: flex;
+        flex-direction:column ;
+    }
+    .head-left img{
+        height: 400px;
+        margin-left: 0px;
+    }
+   .head-right h3{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left:70px;
+    color:#ff3343;
+}
+.head-right h1{
+    font-size: 32px;
+    margin-left: 70px;
+}
+
+.head-right p{
+    text-align: left;
+    line-height:12px;
+    font-size: 18px;
+    margin-left: 70px;
+    line-height: 22px;
+}
+
+
+}
+
