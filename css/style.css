@@ -512,6 +512,73 @@ footer{
 }
 
 
+.section-3{
+    display: grid;
+    grid-template-columns: 2fr;
+    height: 100%;
+    width: 100%;
+    margin-left: 1px;
+    margin-right: 0px
+}
+
+.sec3-left h2{
+    font-size: 32px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.sec3-left p{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 0px;
+    text-align: left;
+}
+
+.sec3-right{
+    margin-top: 20px;
+    margin-left:10px;
+}
+
+.sec3-right button{
+    padding: 20px 30px;
+}
+
+.sec4-lists{
+    justify-content: start;
+    margin-top: 30px;
+}
+
+.sec4.list{
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+footer{
+    
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo img{
+    margin-left: 10px;
+    margin-top: 40px;
+    height: 40px;
+}
+.footer-right{
+    list-style-type: none;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 0px;
+
+    
+}
+
+.footer-right img{
+    margin-left: 40px;
+    height: 20px;
+}
+
+
 
 }
 
